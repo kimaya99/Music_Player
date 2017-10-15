@@ -25,18 +25,10 @@ class ViewController: UIViewController {
             }
         }
     }
-    
-   
-    
+        
     @IBAction func stopTapp(_ sender: UIButton) {
         musicPlayer.stop()
     }
-    
-   
-   
-    
-  
-    
     
     @IBAction func nextTapp(_ sender: UIButton) {
         musicPlayer.skipToNextItem()
